@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Voto</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- General settings -->
+    <string name="pref_network_title">Configurações de Rede</string>
+
+    <string name="pref_title_network_config">Habilitar Configuração de Rede</string>
+    <string name="pref_description_network_config">Configurar ambiente para acesso ao servidor central
+    </string>
+
+    <string name="pref_title_network_server_addr">URL do Servidor CondoApp</string>
+    <string name="pref_default_network_server_addr">http://192.168.1.200/</string>
+
+    <string name="pref_title_image_url_addr">URL das Imagens CondoApp</string>
+    <string name="pref_default_image_url_addr">http://192.168.1.200/</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- End Strings related to Settings -->
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_login">"Login "</string>
+    <string name="title_activity_new_user">Novo Usuário</string>
+    <string name="title_activity_new_user_validate">Validação de Usuário</string>
+    <string name="title_activity_main_equipe">Controle de Equipe</string>
+    <string name="title_activity_equipe_checkin">Check-In Agente</string>
+    <string name="title_activity_equipe_runin">"Registrar Inicio "</string>
+    <string name="title_activity_equipe_troca">Troca de Fiscal</string>
+    <string name="title_activity_equipe_ausencia_temporaria">Ausência Temporária</string>
+    <string name="title_activity_equipe_alimentacao">Alimentação</string>
+    <string name="title_activity_equipe_run_out">Encerramento de Urna</string>
+    <string name="title_activity_apuracao_main">Boca de Urna</string>
+    <string name="title_activity_apuracao_contador">Contador de Eleitores</string>
+
+    <string name="lbl_btn_login">Efetuar Login</string>
+    <string name="lbl_progress">Processando...</string>
+    <string name="lbl_sair_app">Deseja realmente sair?</string>
+
+    <string name="hint_et_login_email">Informe o seu Email</string>
+    <string name="hint_et_login_passwd">Digite sua Senha</string>
+
+    <string name="error_invalid_email">Email Invalido!</string>
+    <string name="error_network_error">Sem Conexão de Rede!!!</string>
+    <string name="error_login">Email ou Senha Invalida!</string>
+    <string name="error_required_field">Informação Incorreta</string>
+
+    <string name="drawer_username">UserName</string>
+
+    <string name="action_exit">Sair</string>
+    <string name="action_menu_equipe_monitoramento">Monitoramento</string>
+    <string name="action_menu_equipe_checkin">Check-In</string>
+    <string name="action_menu_equipe_runin">Run-In de Urna</string>
+    <string name="action_menu_equipe_troca_fiscal">Troca Fiscal</string>
+    <string name="action_menu_equipe_ausencia_temp">Ausencia Temporária</string>
+    <string name="action_menu_equipe_alimentacao">Alimentação</string>
+    <string name="action_menu_equipe_runoff">Run-Off de Urna</string>
+
+    <string name="action_menu_apuracao_contador">Contador de Eleitores</string>
+    <string name="action_menu_apuracao_bocadeurna">Boca de Urna</string>
+    <string name="action_menu_apuracao_relatorio_urna">Relatório de Urna</string>
+
+    <string name="lbl_txt_contato_cordenacao">Contato da Coordenação</string>
+    <string name="lbl_txt_satellite_status">Status Monitoramento</string>
+    <string name="lbl_txt_eleicao_status">Status da Urna</string>
+    <string name="lbl_txt_local_definido">Local Designado</string>
+    <string name="lbl_txt_info_urna">Informação da Urna</string>
+
+    <string name="txt_local_definido">Nome do Local/Escola \n Endereço do Local \n Nº da Seção</string>
+    <string name="txt_contato_cordenacao">Nome do Cordenador \n Telefone: 92 9999-9999</string>
+    <string name="txt_eleicao_n_urna">Urna Nº 99999</string>
+    <string name="txt_urna_info">Municipio: MANAUS (99999) \n ZE# 0303 \n Local# 1234 \n Seção# 9999</string>
+    <string name="txt_apuracao_contagem">Total de Eleitores: 99999 \n Eleitores Registrados: 99999 </string>
+
+    <string name="lbl_equipe_checkin_municipio">Município</string>
+    <string name="lbl_equipe_checkin_zona_eleitoral">Zona Eleitoral</string>
+    <string name="lbl_equipe_checkin_local_votacao">Local de Votação</string>
+    <string name="lbl_equipe_checkin_secao_eleitoral">Seção Eleitoral</string>
+
+    <string name="lbl_equipe_runin_municipio">Município</string>
+    <string name="lbl_equipe_runin_zona">Zona Eleitoral</string>
+    <string name="lbl_equipe_runin_local_votacao">Local de Votação</string>
+    <string name="lbl_equipe_runin_secao_eleitoral">Seção Eleitoral</string>
+    <string name="lbl_equipe_runin_zona_eleitoral">Zona Eleitoral</string>
+
+    <string name="lbl_equipe_troca_fiscal_anterior">Fiscal Anterior</string>
+    <string name="lbl_equipe_troca_fiscal_novo">Fiscal Novo</string>
+    <string name="lbl_equipe_troca_secao_eleitoral">Seção Eleitoral</string>
+
+    <string name="lbl_btn_retornar">Retornar</string>
+    <string name="lbl_btn_salvar">Salvar</string>
+    <string name="lbl_btn_checkin">Check-In</string>
+    <string name="lbl_btn_trocar">Trocar</string>
+    <string name="lbl_btn_runin">Iniciar</string>
+
+    <string name="lbl_equipe_runout_secao_eleitoral">Seção Eleitoral</string>
+    <string name="lbl_equipe_runout_horario">Hora de Encerramento</string>
+    <string name="lbl_checkin_horario">Horário de Abertura</string>
+    <string name="lbl_btn_runout">Encerramento</string>
+    <string name="title_activity_ocorrencia_main">Registro de Ocorrências</string>
+    <string name="lbl_ocorrencia_titulo">Título de Ocorrência</string>
+    <string name="title_activity_ocorrencia_categoria_main">Categorias de Ocorrencias</string>
+    <string name="title_activity_ocorrencia_detalhe">Detalhe da Ocorrência</string>
+    <string name="tv_lbl_tit_form_ocorrencia_observacao">Descrição da Ocorrência</string>
+    <string name="hint_tv_form_ocorrencia_observacao">Descreva detalhes da Ocorrência</string>
+    <string name="tv_galeria_qtde">0</string>
+    <string name="action_add_form_ocorrencia_confirm">Enviar Ocorrência</string>
+    <string name="title_activity_apuracao_bocade_urna">Boca de Urna</string>
+    <string name="title_activity_apuracao_relatorio">Apuração de Urna</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itm.mobile.voto.equipe.EquipeMainActivity">
+
+    <item android:id="@+id/action_menu_equipe_monitoramento"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_monitoramento"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_checkin"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_checkin"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_runin"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_runin"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_troca_fiscal"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_troca_fiscal"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_ausencia_temp"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_ausencia_temp"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_alimentacao"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_alimentacao"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_equipe_runoff"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_equipe_runoff"
+        app:showAsAction="never" />
+</menu>

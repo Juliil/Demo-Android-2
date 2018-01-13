@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itm.mobile.voto.equipe.EquipeMainActivity">
+
+    <item android:id="@+id/action_menu_apuracao_contador"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_apuracao_contador"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_apuracao_bocadeurna"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_apuracao_bocadeurna"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_menu_apuracao_relatorio_urna"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_apuracao_relatorio_urna"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.itm.mobile.voto.ocorrencias.OcorrenciaDetalheActivity"
+    tools:showIn="@layout/activity_ocorrencia_detalhe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_form_ocorrencia_mensagem"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_lbl_tit_form_ocorrencia_observacao" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/et_add_ocorrencia_observacao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:hint="@string/hint_tv_form_ocorrencia_observacao"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="255"
+            android:maxLines="5"
+            android:minLines="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5">
+
+            <ImageButton
+                android:id="@+id/bt_add_form_ocorrencia_foto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_foto_32dp" />
+            <TextView
+                android:id="@+id/tv_galeria_qtde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_galeria_qtde"
+                style="?android:textAppearanceLarge"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_alignBottom="@+id/bt_add_form_ocorrencia_foto"
+                android:layout_alignRight="@+id/bt_add_form_ocorrencia_foto"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/bt_add_form_ocorrencia_galeria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:src="@drawable/ic_action_galery_32dp" />
+
+        <ImageButton
+            android:id="@+id/bt_add_form_ocorrencia_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:src="@drawable/ic_action_sendmessage_32dp_black"
+            android:text="@string/action_add_form_ocorrencia_confirm" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ll_add_form_mapeamento_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapview_mapeamento_detail"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#DCDCDC"
+            android:clickable="false"
+            map:cameraZoom="15"
+            map:liteMode="true" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="top"
+                android:background="@color/colorBackgroud">
+
+                <ImageView
+                    android:id="@+id/ocorr_grid_item_image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/ocorr_grid_item_image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/ocorr_grid_item_image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/ocorr_grid_item_image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

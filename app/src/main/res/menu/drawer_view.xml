@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Funcionalidades">
+        <menu>
+            <item
+                android:id="@+id/nav_equipe"
+                android:title="Equipe" />
+            <item
+                android:id="@+id/nav_ocorrencias"
+                android:title="Ocorrências" />
+            <item
+                android:id="@+id/nav_bocadeurna"
+                android:title="Boca de Urna" />
+        </menu>
+    </item>
+
+    <item android:title="Administração">
+        <menu>
+            <item
+                android:id="@+id/nav_config"
+                android:title="Configuração" />
+            <item
+                android:id="@+id/nav_crud_perfil"
+                android:title="CRUD Perfil" />
+        </menu>
+    </item>
+
+</menu>
